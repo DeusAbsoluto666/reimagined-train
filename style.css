@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+        --espaço: #22223bff;
+        --violeta: #4a4e69ff;
+        --rosa: #9a8c98ff;
+        --dogwood: #c9ada7ff;
+        --isabelline: #f2e9e4ff;
+}
