@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,4 +13,19 @@
         --rosa: #9a8c98ff;
         --dogwood: #c9ada7ff;
         --isabelline: #f2e9e4ff;
+        --fonte-titulo: "Open Sans", sans-serif;
+        --fonte-texto: "DM Sans", sans-serif;
+
+}
+
+body {
+    background-color: var(--espaço);
+    color: var(--dogwood);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+}
+
+.titulo-principal {
+    font-family: var(--fonte-titulo);
+    color: var(--rosa);
 }
