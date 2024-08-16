@@ -3,18 +3,19 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 :root {
-        --espaço: #22223bff;
-        --violeta: #4a4e69ff;
-        --rosa: #9a8c98ff;
-        --dogwood: #c9ada7ff;
-        --isabelline: #f2e9e4ff;
-        --fonte-titulo: "Open Sans", sans-serif;
-        --fonte-texto: "DM Sans", sans-serif;
+    --espaço: #22223bff;
+    --violeta: #4a4e69ff;
+    --rosa: #9a8c98ff;
+    --dogwood: #c9ada7ff;
+    --isabelline: #f2e9e4ff;
+    --fonte-titulo: "Open Sans", sans-serif;
+    --fonte-texto: "DM Sans", sans-serif;
 
 }
 
@@ -41,4 +42,55 @@ body {
 .cabecalho-img {
     width: 10%;
     border-radius: 100%;
+}
+
+.cabecalho-nav_link {
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    color: var(--espaço);
+    margin-right: 24px;
+}
+
+.cabecalho-nav_link:hover {
+    color: var(--isabelline);
+    transition: 0.5s;
+    text-shadow: 2px 2px var(--violeta);
+    font-size: 30px;
+}
+
+.principal-capa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24xp;
+    background-image: url(img/middle-ages-4891000_1280.png);
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    padding: 24px 12px;
+}
+
+.principal-capa_conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.principal-capa_titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    color: var(--isabelline);
+    margin-bottom: 12px;
+}
+
+.principal-capa_texto {
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.principal-capa_img {
+    width: 30%;
+    border-radius: 100%;
+    margin-left: 1200px;
+
 }
