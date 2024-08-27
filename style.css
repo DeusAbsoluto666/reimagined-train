@@ -60,7 +60,7 @@ body {
 
 .principal-capa {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 24xp;
     background-image: url(img/middle-ages-4891000_1280.png);
@@ -91,4 +91,25 @@ body {
     width: 10%;
     border-radius: 100%;
     
+}
+
+.principal-capa_combotao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.principal-capa_botao {
+    background-color: var(--violeta);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    color: var(--dogwood);
+    text-decoration: none;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--isabelline);
+    color: var(--dogwood);
 }
