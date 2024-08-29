@@ -78,7 +78,7 @@ body {
 .principal-capa_titulo {
     font-family: var(--fonte-titulo);
     font-size: 32px;
-    color: var(--isabelline);
+    color: var(--dogwood);
     margin-bottom: 12px;
 }
 
@@ -106,6 +106,17 @@ body {
     margin-top: 2em;
     color: var(--dogwood);
     text-decoration: none;
+}
+
+.principal-capa_botao:hover {
+    background-color: var(--dogwood);
+    color: var(--violeta);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.principal-capa_botao:active {
+    background-color: var(--espaço);
 }
 
 .botao_secundario {
