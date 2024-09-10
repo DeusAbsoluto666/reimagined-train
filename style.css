@@ -133,25 +133,19 @@ body {
     align-items: center;
     margin: 0 0em;
     margin-top: 1em;
-    background-color: var(--espaço);
-    border: 2px solid var(--rosa);
 }
 
 .propaganda_produto {
     margin-top: 20%;
     margin-bottom: 20%;
     margin-left: 20%;
-    border-radius: 5px 5px 5px 5px ;
-    border: 2px solid var(--violeta);
+    border-radius: 20px 20px 20px 20px;
     width: 50%;
 
 }
 
 .propaganda_conteudo {
-    background-color: var(--violeta);
     padding: 20px;
-    border: 5px solid var(--dogwood);
-    border-radius: 20px 20px 20px 20px;
     margin-right: 20px;
 }
 
@@ -179,4 +173,21 @@ body {
     transition: 1s;
 }
 
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos_titulo {
+    color: var(--dogwood);
+}
+
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+}
+
+.lista_item {
+    font-size: 5px;
+
+}
 
